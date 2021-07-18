@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Quotes';
+  quotes:string[];
+  
+  
+constructor(){
+  
+  this.quotes= ['The minority have a say but the majority have their way','The greatest glory in living lies not in never falling, but in rising every time we fall','The way to get started is to quit talking and begin doing.']
+
+
+}
+
 }
