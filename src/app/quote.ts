@@ -1,10 +1,10 @@
 export class Quote {
-    saying:string;
-    author:string;
 
-    constructor(saying:string,author:string){
-        this.saying = saying
-        this.author = author
+    showVotes:boolean;
+
+    constructor(public saying:string,public author:string,public upvotes:number,public downvotes:number)
+    {
+       this.showVotes = false
     }
 
 

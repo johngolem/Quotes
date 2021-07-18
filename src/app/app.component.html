@@ -1,8 +1,17 @@
-<h1>Quotes</h1>
-<button type="button">Add your Quote here</button>
-    <h2>Here are the available quotes</h2>
-    <ul>
-        <li *ngFor='let quote of quotes'>
-            {{quote.saying}}  <br> by  {{quote.author}}
-        </li>
-    <ul>
+<hr>
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+<div class="vl"></div>
+<h1>Main Form</h1>
+<app-quotef></app-quotef>
+
+
+    </div>
+    <div class="col-md-6">
+    <app-availq></app-availq>
+    </div>
+</div>
+</div>
+<hr>
+
