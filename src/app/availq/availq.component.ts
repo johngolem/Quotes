@@ -22,6 +22,11 @@ export class AvailqComponent implements OnInit {
     this.quotes.push(quote)
   }    
   
+  toggleDetails(index:any){
+    this.quotes[index].showVotes = !this.quotes[index].showVotes;
+  }
+
+
   constructor() { }
 
   ngOnInit(): void {

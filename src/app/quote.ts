@@ -5,6 +5,7 @@ export class Quote {
     constructor(public saying:string,public author:string,public upvotes:number,public downvotes:number)
     {
        this.showVotes = false
+      
     }
 
 
