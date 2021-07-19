@@ -1,14 +1,12 @@
 
-
-    <h1>Available Quotes</h1>
+    <h1> Quote Nation</h1>
     <style>
         ul{
     
              background: blanchedalmond;
-             font:aquamarine;
+             font:purple;
              font-family:Georgia, 'Times New Roman', Times, serif;
-             font-size:x-large;
-             text-align: center;
+             text-align: left;
     
         }
         h1{
@@ -19,16 +17,17 @@
         }
         h2{
             color: crimson;
-            font-style: italic;
             font-weight: lighter;
             font-family:Georgia, 'Times New Roman', Times, serif;
             background: blanchedalmond;
-            text-align: center;
+            text-align: left;
         }
         button{
             text-align: left;
         }
-    
+    li{
+        color: brown;
+    }
     </style> 
 
     <h2>Here are the available quotes</h2>
@@ -41,5 +40,3 @@
 
         <app-quotef (addQuote)="addNewQuote($event)"></app-quotef>
 
-
- 
